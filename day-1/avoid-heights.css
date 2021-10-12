@@ -1,0 +1,24 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+.container {
+  background: #23424a;
+  color: white;
+
+  width: 80%;
+  margin: 0 auto;
+
+  /* * If you really need to add height on this container element, you can use padding instead.*/
+
+  padding: 5em;
+
+  /* ! This is a general rule. There are times when you want to use height */, 
+  /* ! but for the most part, they cause more issues than they solve.  */
+  /* height: 300px; */
+}
