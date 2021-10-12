@@ -17,7 +17,18 @@ body {
 
 .child {
   background: #38cfd9;
+
+  /* ! Don't hardcode width of this CSS 750px! This will make issue for responsive of your child element. Typical case people get mad at css! */
+  /* ! Here you will try and overfill the width of the parent text by default! */
+  /* width: 750px; */
+
+  /* * Best practice is to add percentage instead */
+  width: 50%;
+
   /* Normally, I wouldn't include a height. 
   It's just to get us started */
   height: 250px;
+
+  /* ! If we use overflow: hidden, then we will get the issue of the actually missing text */
+  /* overflow: hidden; */
 }
