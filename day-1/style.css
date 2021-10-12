@@ -1,0 +1,23 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.parent {
+  background: #23424a;
+  padding: 3.125em;
+  /* ! Don't hardcode a width of a pixel! This will make issue for responsive of your element */
+  /* width: 900px; */
+  width: 80%;
+  margin: 0 auto;
+}
+
+.child {
+  background: #38cfd9;
+  /* Normally, I wouldn't include a height. 
+  It's just to get us started */
+  height: 250px;
+}
